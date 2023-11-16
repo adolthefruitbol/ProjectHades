@@ -140,12 +140,6 @@
 }
 // entity 2
 {
-"classname" "weapon_grenadelauncher"
-"origin" "-48 256 16"
-"target" "secretdr"
-}
-// entity 3
-{
 "classname" "func_door"
 "target" ""
 "targetname" "secretdr"
@@ -163,7 +157,19 @@
 ( 32 48 -16 ) ( 32 48 -15 ) ( 32 49 -16 ) egypt20 [ 5.51091059616309e-16 1 0 0 ] [ 0 0 -1 0 ] 180 1 1
 }
 }
+// entity 3
+{
+"classname" "monster_ogre"
+"origin" "-48 176 -152"
+"angle" "105"
+}
 // entity 4
+{
+"classname" "weapon_supershotgun"
+"origin" "-48 272 16"
+"target" "secretdr"
+}
+// entity 5
 {
 "classname" "func_door"
 "target" ""
@@ -182,10 +188,4 @@
 ( -96 368 -16 ) ( -95 368 -16 ) ( -96 368 -15 ) egypt20 [ -1 4.286263797015736e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -48 336 16 ) ( -48 335 16 ) ( -48 336 17 ) egypt20 [ 4.286263797015736e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
-}
-// entity 5
-{
-"classname" "monster_ogre"
-"origin" "-48 176 -152"
-"angle" "105"
 }
